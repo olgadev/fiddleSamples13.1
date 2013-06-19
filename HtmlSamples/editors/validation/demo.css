@@ -1,0 +1,12 @@
+.standard-grid {
+            margin-bottom: 20px;
+        }
+
+        #submitEvent, #formSubmit {
+            float: left;
+            margin-right: 20px;
+        }
+
+        #formSubmit {
+            float: left;
+        }

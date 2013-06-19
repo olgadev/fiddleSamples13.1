@@ -1,0 +1,27 @@
+#htmlEditor {
+            margin-bottom: 10px;
+        }
+        @media print {
+            .noprint {
+                display: none;
+            }
+            .content {
+                border: 0px;
+            }
+            #htmlEditor_source {
+                display:none;
+            }
+            #htmlEditor_editor {
+                width: 100%;
+            }
+            #htmlEditor_domPathToolbar {
+                display: none;
+            }
+            .ui-ightmleditor-content iframe
+            {
+                border-width: 0px;
+            }
+        }
+        #buttons {
+            margin-bottom: 10px;
+        }

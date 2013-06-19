@@ -1,0 +1,141 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.lob.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+
+<form id="validationForm" method="post">
+ 
+    <table class="standard-grid">
+								<tr>
+									<td>
+										<b>$$(text_editor)</b>
+										<br />
+										<input type="text" id="textEditor"></input>
+									</td>
+									<td>
+										<b>$$(date_picker)</b>
+										<br />
+										<input id="datePicker" type="text"></input>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>$$(Mask): (000) 000-0000</b>
+										<br />
+										<input type="text" id="maskEditor1"></input>
+									</td>
+									<td>
+										<b>$$(Mask): CCCCCCCCCC</b>
+										<br />
+										<input id="maskEditor2" type="text"></input>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>$$(signed_byte)</b>
+										<br />
+										<input type="text" id="numericEditor"></input>
+									</td>
+									<td>
+										<b>$$(currency_range): 5..500</b>
+										<br />
+										<input id="currencyEditor" type="text"></input>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>$$(date_range)</b>
+										<br />
+										<input type="text" id="dateEditor"></input>
+									</td>
+									<td>&nbsp;</td>
+								</tr>
+							</table>
+							
+							
+							<div class="clearfix" style="width:100%">
+								<div style="width: 250px; float: left">
+									<input type="submit" class="required" value="$$(Submit)" id="submitEvent"></input>
+									<input type="button" class="required" id="formSubmit" value="$$(form_submit)"></input>
+								</div>
+								<div style="float: left; padding-top: 5px">
+									<span id="formSubmitMessage" style="margin-left: 30px; color: red;">
+									</span>
+									<span id="submitMessage" style="margin-left: 30px; color: red;"></span>
+								</div>
+							</div>
+							<br />
+							<br />
+							<table id="mainTable" class="standard-grid">
+								<thead><tr><th colspan="2">$$(validation_options)</th></tr></thead>
+								<tbody>
+									<tr>
+										<td style="width: 50%">
+											<input type="checkbox" id="requredCheckBox"></input>
+											$$(Required)
+										</td>
+										<td style="width: 50%">&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td class="required">
+											<input type="checkbox" id="onBlurCheckBox" class="validateOptions" checked="checked"></input>
+											$$(validate_onblur)
+										</td>
+										<td class="required">
+											<input type="checkbox" id="onChangeCheckBox" class="validateOptions" checked="checked"></input>
+											$$(validate_onchange)
+										</td>
+									</tr>
+									<tr>
+										<td class="required">
+											<input type="checkbox" id="onSubmitCheckBox" class="validateOptions"></input>
+											$$(validate_submit)
+										</td>
+										<td class="required">
+											<input type="checkbox" id="formSubmitCheckBox" class="validateOptions"></input>
+											$$(validate_form)
+										</td>
+									</tr>
+									<tr>
+										<td class="required">
+											$$(keep_focus):
+											<select id="keepFocusList" class="validateOptions">
+												<option>never</option>
+												<option>once</option>
+												<option selected="selected">always</option>
+											</select>
+										</td>
+										<td class="required">
+											<input type="checkbox" id="showIconCheckBox" checked="checked" class="validateOptions"></input>
+											$$(show_icon)
+										</td>
+									</tr>
+									<tr>
+										<td class="required">
+											$$(show_anim):
+											<input type="text" id="showAnimationDuration" class="validateOptions" value="300" style="width: 50px"></input>
+										</td>
+										<td class="required">
+											$$(hide_anim) (ms):
+											<input type="text" id="hideAnimationDuration" class="validateOptions" value="300" style="width: 50px"></input>
+										</td>
+									</tr>
+									<tr>
+										<td class="required">
+											<input type="checkbox" id="showErrorCheckBox" class="validateOptions"></input>
+											$$(show_all_errors)
+										</td>
+										<td class="required">
+											$$(custom_error_message):
+											<input type="text" id="customErrorMessegeText" class="validateOptions"></input>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+    
+</form>

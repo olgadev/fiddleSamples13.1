@@ -1,0 +1,14 @@
+#htmlEditor {
+            margin-bottom: 10px;
+        }
+        #feedback 
+        {
+            padding-left: 10px;
+            color: Red;
+        }
+        span.ui-icon.ui-icon-contact
+        {
+            /* D.A. 11th April 2013 Bug #139140 Chage the custom image path to be visible in the installed samples and demos folder */
+            background-image: url("http://igniteuisamples.dev.infragistics.local/13-1/images/samples/html-editor/ui-icons_222222_256x240.png"); 
+            background-position: -192px -128px;
+        }

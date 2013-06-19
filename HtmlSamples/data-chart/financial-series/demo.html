@@ -1,0 +1,30 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+
+<script id="tooltipTemplate" type="text/x-jquery-tmpl">
+        <div id="tooltip" class="ui-widget-content ui-corner-all">
+            <span id="tooltipValue">$$(Chart_lbl_seriesOpenValue): ${item.Open}</span><br/>
+            <span id="Span1">$$(Chart_lbl_seriesHighValue): ${item.High}</span><br/>
+            <span id="Span2">$$(Chart_lbl_seriesLowValue): ${item.Low}</span><br/>
+            <span id="Span3">$$(Chart_lbl_seriesCloseValue): ${item.Close}</span><br/>
+        </div>
+    </script>
+
+<table>
+        <tr>
+            <th>$$(Chart_sel_candleStick)</th><th>$$(Chart_sel_ohlc)</th>
+        </tr>
+        <tr>
+            <td>
+                <div id="candlestickChart" class="chartElement"></div>
+            </td>
+            <td>
+                <div id="ohlcChart" class="chartElement"></div>
+            </td>
+        </tr>
+    </table>

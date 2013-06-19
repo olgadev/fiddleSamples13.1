@@ -1,0 +1,17 @@
+#priceChart, #indicatorChart
+        {
+            margin: 10px 0px 10px 0px;
+        }
+        
+        #comboContainer 
+        {
+            position: relative;
+            float: right;
+        }
+        
+        .selectionOptions
+        {
+            width: 496px;
+            margin-left: 5px;
+            margin-top: 10px;
+        }

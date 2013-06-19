@@ -1,0 +1,19 @@
+.containerTree {
+            overflow: auto;
+            width: 100%;
+        }
+
+        #left {
+            display: inline;
+            float: left;
+        }
+
+        #right {
+            float: left;
+            margin-left:30px;
+            width: 330px;
+        }
+
+        #firstTree, #secondTree {
+            font-size: 14px;
+        }

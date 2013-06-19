@@ -1,0 +1,11 @@
+#chart
+        {
+            position: relative;
+            float: left;
+            margin-right: 10px;
+        }
+        
+        .selectionOptions
+        {
+            margin-bottom: 10px;   
+        }
