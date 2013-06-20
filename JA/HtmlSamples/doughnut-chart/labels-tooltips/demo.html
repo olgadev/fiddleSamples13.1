@@ -1,0 +1,72 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<script id="budgetTooltipTemplate" type="text/x-ig-tmpl">        
+        <div >
+            <span id="tooltipValue" style="font-family: Arial; font-size: 11px;">${item.Budget}</span>    
+        </div>       
+    </script>
+<script id="depTooltipTemplate" type="text/x-ig-tmpl">        
+        <div >
+            <span id="tooltipValue" style="font-family: Arial; font-size: 11px;">${item.DepartmentSize}</span>    
+        </div>       
+    </script>
+
+<div id="chart"></div>
+    <br />
+     <table class="options">
+        <tr>            
+            <td>$$(start_angle):</td>
+            <td>
+                <div id="angle" class="slider"></div>
+            </td>
+            <td>$$(Series)</td>
+            <td>
+                <select id="angleSeriesName">                    
+                    <option value="Budget" selected="selected">$$(lbl_budget)</option>
+                    <option value="DepartmentSize">$$(DepartmentSize)</option>                    
+                </select>
+            </td>
+        </tr>
+        <tr>            
+            <td>$$(InnerExtent):</td>
+            <td>
+                <div id="innerExtent" class="slider"></div>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>               
+        <tr>
+            <td>$$(label_position_budget_series):</td>
+            <td>                
+                <select id="labelPosition">                    
+                    <option value="center" selected="selected">$$(Center)</option>
+                    <option value="insideEnd">$$(inside_end)</option>                    
+                    <option value="bestFit">$$(best_fit)</option>
+                </select>               
+            </td>
+            <td></td>
+            <td></td>            
+        </tr>
+         <tr>
+            <td>$$(label_position_depsize_series):</td>
+            <td>                
+                <select id="labelPosition2">                    
+                    <option value="center" selected="selected">$$(Center)</option>
+                    <option value="insideEnd">$$(inside_end)</option>
+                    <option value="outsideEnd">$$(outside_end)</option>
+                    <option value="bestFit">$$(best_fit)</option>
+                </select>               
+            </td>
+            <td>$$(label_extent)</td>
+            <td>
+                <div id="labelExtent" class="slider"></div>
+            </td>
+            
+        </tr>
+    </table>

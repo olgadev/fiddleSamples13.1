@@ -1,0 +1,31 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<script id="tooltipCoal" type="text/x-jquery-tmpl">
+        <span id="tooltipValue" class="tooltip">$$(Chart_Composite_Coal_DS): ${item.Coal}</span>
+    </script>
+<script id="tooltipOil" type="text/x-jquery-tmpl">
+        <span id="Span1" class="tooltip">$$(Chart_Composite_Oil_DS): ${item.Oil}</span>
+    </script>
+<script id="tooltipNuclear" type="text/x-jquery-tmpl">
+        <span id="Span2" class="tooltip">$$(Chart_Composite_Nuclear_DS): ${item.Nuclear}</span>
+    </script>
+<script id="tooltipTotal" type="text/x-jquery-tmpl">
+        <span id="Span3" class="tooltip">$$(Chart_Composite_Total_DS): ${item.Total}</span>
+    </script>
+
+<div class="chartComponent">
+        <div id="chart"></div>
+    </div>
+
+    <div id="legends">
+        <div id="legend"></div>
+        <div id="legend2"></div>
+    </div>
+
+    <h3 id="chartTitle">$$(Chart_Composite_Title)</h3>

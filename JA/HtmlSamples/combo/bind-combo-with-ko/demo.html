@@ -1,0 +1,40 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.lob.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/external/knockout-latest.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/external/knockout.mapping-latest.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/extensions/infragistics.ui.combo.knockout-extensions.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<h2 class="title">$$(Favourite_Actors)</h2>
+    <div class="horizontal-container">
+        <label>$$(Selected_Actor):</label>
+        <a data-bind="attr: { href: imdb_url, title: actorName_imdb }, text: actorName" href="#" target="_blank"></a>
+    </div>
+
+    <div class="horizontal-container">
+        <input data-bind="value: newActor" type="text"></input>
+        <input data-bind="click: addActor" type="button" value="$$(button_Add)"></input>
+    </div>
+
+
+    <div class="horizontal-container">
+        <span id="comboActors" data-bind="igCombo: { 
+                text: actorName,
+                dataSource: actors,
+                textKey: 'name',
+                valueKey: 'id',
+                allowCustomValue : true,
+                enableSelectionChangedUpdate: true,
+                width: '200',
+                mode: 'dropdown',
+                enableClearButton: false
+            }"></span>
+        <input data-bind="click: removeActor" type="button" value="$$(button_Remove)"></input>
+    </div>
+    <div class="horizontal-container">
+        <select id="listboxActors" data-bind="options: actorsNames, value: actorName"></select>
+    </div>

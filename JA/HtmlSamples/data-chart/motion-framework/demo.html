@@ -1,0 +1,49 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<script id="tooltipTemplate" type="text/x-jquery-tmpl">
+        <div id="tooltip" class="shadow ui-widget-content ui-corner-all">
+            <div>$$(Chart_lbl_genre): ${item.Genre}</div>
+            <div>$$(Chart_lbl_count): ${item.Count}</div>
+        </div>
+    </script>
+
+<div id="chart"></div>
+
+    <table>
+        <tr>
+            <td>
+                <div class="ui-state-default ui-corner-all" id="play">
+                    <span id="playIcon" class="ui-icon ui-icon-play"></span>
+                </div>
+            </td>
+            <td>
+                <div id="timeSlider" style="width: 300px; margin: 15px">
+                </div>
+            </td>
+            <td>
+                <input type="button" id="changeType" value="$$(Chart_lbl_changeChartType)"></input>
+            </td>
+        </tr>
+     </table>
+    <br />
+
+    <div>
+        $$(Chart_lbl_moviesDataFrom):<br />
+        <div class="freebase-attribution">
+            <img alt="Freebase CC-BY" height="23px" style="float: left; border: 0;" width="61px" src="http://www.freebase.com/policies/freebase-cc-by-61x23.png">
+            <div style="font-size: x-small; margin-left: 70px; height: 30px; ">
+              $$(Chart_lbl_source):
+              <a href="http://www.freebase.com/">Freebase</a>, $$(Chart_lbl_licensedUnder)
+              <a href="http://creativecommons.org/licenses/by/2.5/">CC-BY</a><br />
+              $$(Chart_lbl_otherContentFrom)
+              <a href="http://en.wikipedia.org/">Wikipedia</a>,
+              $$(Chart_lbl_licensedUnder) <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA</a>
+            </div>
+        </div>
+    </div>

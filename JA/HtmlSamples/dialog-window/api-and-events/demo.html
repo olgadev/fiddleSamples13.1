@@ -1,0 +1,51 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.lob.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/apiviewer.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+<link href="http://igniteuisamples.dev.infragistics.local/13-1/css/apiviewer.css" rel="stylesheet" type="text/css"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<div id="dialog">
+        <p>
+            <img src="http://igniteuisamples.dev.infragistics.local/13-1/images/samples/dialog-window/content.jpg">
+        </p>
+        <button id="closeDialog"></button>
+	</div>
+
+    <div class="api-explorer">
+        <fieldset>
+            <legend>$$(api)</legend>
+                <label>$$(changingStateProgrammatically)</label>
+                <button id="createDialog">
+		        </button>
+		        <button id="destroyDialog">
+		        </button>
+		        <button id="openDialog">	
+		        </button>
+                <br />
+                <button id="minimizeDialog">
+                </button>
+		        <button id="maximizeDialog">
+                </button>
+		        <button id="pinDialog">
+                </button>
+		        <button id="unpinDialog">
+                </button>
+                <br />
+                <label>$$(positioning)</label>
+		        <select id="position" class="recreate">
+			        <option selected="selected"></option>
+			        <option>[400, 200]</option>
+			        <option>[10, 450]</option>
+			        <option>[300, 10]</option>
+			        <option>my:'center',at:'center',of:window</option>
+			        <option>offset:'50 50',of:window,my:'left top',at:'left top'</option>
+			        <option>offset:'-100 -100',my:'center',at:'center',of:window</option>
+		        </select>
+        </fieldset>
+    </div>
+
+    <div class="api-viewer"></div>

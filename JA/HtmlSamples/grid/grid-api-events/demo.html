@@ -1,0 +1,96 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.lob.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/apiviewer.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js-data/northwind"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+<link href="http://igniteuisamples.dev.infragistics.local/13-1/css/apiviewer.css" rel="stylesheet" type="text/css"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<div class="api-explorer">
+        <fieldset id="gridOptions">
+            <legend>$$(legend_lbl_gridApiSettings)</legend>
+            <input type="button" id="igButtonDataBind" value="$$(button_lbl_databind)" style="margin-bottom: 20px;"></input>
+            <br />
+            <label for="rows">$$(lbl_selectRow) </label>
+            <select id="rows"></select>
+            <input type="button" id="igButtonGetRowIndex" value="$$(button_lbl_getRowIndex)"></input>
+
+            <label for="columns" style="margin-left: 20px;">$$(lbl_selectColumn) </label>
+            <select id="columns"></select>
+            <input type="button" id="igButtonGetCellText" value="$$(button_lbl_getCellText)"></input>
+        </fieldset>
+
+        <br />
+        <br />
+
+        <fieldset id="filteringOptions">
+            <legend>$$(legend_lbl_filterSettings)</legend>
+            <select id="filterColumn">
+            </select>
+
+            <select id="cond_list">
+                <option class="numberCondition" value='equals'>equals</option>
+                <option class="numberCondition" value='doesNotEqual'>doesNotEqual</option>
+                <option class="numberCondition" value='lessThan'>lessThan</option>
+                <option class="numberCondition" value='greaterThan'>greaterThan</option>
+                <option class="stringCondition" value='startsWith'>startsWith</option>
+                <option class="stringCondition" value='endsWith'>endsWith</option>
+                <option class="stringCondition" value='contains'>contains</option>
+                <option class="stringCondition" value='doesNotContain'>doesNotContain</option>
+                <option class="stringCondition" value='empty'>empty</option>
+                <option class="stringCondition" value='notEmpty'>notEmpty</option>
+                <option class="dateCondition" value='on'>on</option>
+                <option class="dateCondition" value='notOn'>notOn</option>
+                <option class="dateCondition" value='before'>before</option>
+                <option class="dateCondition" value='after'>after</option>
+                <option class="dateCondition" value='today'>today</option>
+                <option class="dateCondition" value='yesterday'>yesterday</option>
+                <option class="dateCondition" value='lastMonth'>lastMonth</option>
+                <option class="dateCondition" value='nextMonth'>nextMonth</option>
+                <option class="dateCondition" value='thisMonth'>thisMonth</option>
+                <option class="dateCondition" value='lastYear'>lastYear</option>
+                <option class="dateCondition" value='thisYear'>thisYear</option>
+                <option class="dateCondition" value='nextYear'>nextYear</option>
+            </select>
+
+            <input style="width: 100px" id="filterExpr"></input>
+            <input type="button" id="igButtonFilter" value="$$(button_lbl_filter)"></input>
+        </fieldset>
+
+        <br />
+        <br />
+        <fieldset id="selectionOptions">
+            <legend>$$(legend_lbl_selectSettings)</legend>
+            <label for="RowSelect">$$(lbl_selectRowIndex_colon) </label>
+            <select id="RowSelect"></select>
+            <input type="button" id="SelectRow" value="$$(button_lbl_selectRow)"></input>
+            <input type="button" id="GetSelectedRows" value="$$(button_lbl_getSelRows)"></input>
+        </fieldset>
+
+        <br />
+        <br />
+        <fieldset id="pagingOptions">
+            <legend>$$(legend_lbl_pagingSettings)</legend>
+            <label for="PageIndexSelect">$$(lbl_selectPageIndex)</label>
+            <select id="PageIndexSelect">
+            </select>
+            <label for="PageSizeSelect" style="margin-left: 20px;">$$(lbl_selectPageSize)</label>
+            <select id="PageSizeSelect">
+                <option>2</option>
+                <option selected="selected">5</option>
+                <option>10</option>
+            </select>
+        </fieldset>
+    </div>
+
+    
+    
+
+    
+    <table id="grid">
+    </table>
+
+    <div class="api-viewer"></div>

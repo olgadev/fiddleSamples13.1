@@ -1,0 +1,25 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link><script src="/js/i18n/infragistics-ja.js"></script>
+
+<script id="tooltipTemplate" type="text/x-jquery-tmpl">
+        <div class="ui-widget-content ui-corner-all">
+            <span id="tooltipValue">$$(Chart_lbl_seriesHighValue): ${item.Value2}</span><br />
+            <span id="Span1">$$(Chart_lbl_seriesLowValue): ${item.Value1}</span>
+        </div>
+    </script>
+
+<div class="chartContainer">
+        <div class="chart">
+            <h4>$$(Chart_sel_rangeArea)</h4>
+            <div id="chartRangeArea"></div>
+        </div>
+        <div class="chart">
+            <h4>$$(Chart_sel_rangeColumn)</h4>
+            <div id="chartRangeColumn"></div>
+        </div>
+    </div>
