@@ -1,0 +1,20 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+
+<script id="tooltipTemplate" type="text/x-jquery-tmpl">
+        <div class="ui-widget-content ui-corner-all">
+            <span id="tooltipValue">$$(Chart_lbl_seriesValue): ${item.Value}</span>
+        </div>
+    </script>
+
+<div>
+        <label>$$(Chart_lbl_refreshTime): </label><span id="timeText"></span>
+    </div>
+    <div><span class="message">$$(Chart_lbl_generatingData)</span></div>
+
+    <div id="chart"></div>

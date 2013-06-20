@@ -1,0 +1,48 @@
+.clear {
+            clear: both;
+        }
+
+        #trash {
+            height: 100px;
+            width: 32%;
+            padding: 1%;
+        }
+
+            #trash h4 {
+                line-height: 16px;
+                margin: 0 0 0.4em;
+            }
+
+                #trash h4 .ui-icon {
+                    float: left;
+                }
+
+        .containerTree {
+            overflow: auto;
+        }
+
+        #left {
+            display: inline;
+            float: left;
+        }
+
+        #right {
+            width:300px;
+            float: left;
+            margin-left: 100px;
+        }
+
+        .containerModalDialog {
+            overflow: auto;
+            width: 180px;
+            margin: 0 auto;
+            padding-top: 5px;
+        }
+
+        #leftYes {
+            float: left;
+        }
+
+        #rightNo {
+            float: right;
+        }

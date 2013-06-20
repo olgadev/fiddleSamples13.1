@@ -1,0 +1,70 @@
+$(function () {
+            $("#radialgauge").igRadialGauge({
+                height: "500px",
+                width: "500px",
+                interval: 2,
+                labelInterval: 1,
+                transitionDuration: 1000,
+                value: 11,
+                centerX: 0.5,
+                centerY: 0.5,
+                minimumValue: 0,
+                maximumValue: 20,
+                backingStrokeThickness: 0,
+                scaleStartAngle: 120,
+                scaleEndAngle: 50,
+                scaleStartExtent: 0.5,
+                scaleEndExtent: 0.79,
+                scaleOversweep: 0,
+                needleStartExtent: 0,
+                needleEndExtent: 0.7,
+                tickStartExtent: 0.62,
+                tickEndExtent: 0.69,
+                minorTickStartExtent: 0.65,
+                minorTickEndExtent: 0.69,
+                labelExtent: 0.75,
+                needleShape: "needleWithBulb",
+                needleStartExtent: -0.2,
+                needleEndExtent: 0.7,
+                needleBaseFeatureExtent: 0.06,
+                needleBaseFeatureWidthRatio: 0.13,
+                needlePointFeatureExtent: 0.5,
+                needlePointFeatureWidthRatio: 0.06,                
+                needlePivotWidthRatio: 0.15,
+                needlePivotInnerWidthRatio: 0.05,
+                needlePivotShape: "circleWithHole",                
+                scaleSweepDirection: "clockwise",
+                ranges: [
+                        {
+                            name: "range1",
+                            startValue: 0,
+                            endValue: 7,
+                            outerStartExtent: .5,
+                            outerEndExtent: .57,
+                            innerStartExtent: 0.5,
+                            innerEndExtent: 0.5,
+                            strokeThickness: 0.0
+                        },
+                        {
+                            name: "range2",
+                            startValue: 7,
+                            endValue: 15,
+                            outerStartExtent: .57,
+                            outerEndExtent: .61,
+                            innerStartExtent: 0.5,
+                            innerEndExtent: 0.5,
+                            strokeThickness: 0
+                        },
+                        {
+                            name: "range3",
+                            startValue: 15,
+                            endValue: 20,
+                            outerStartExtent: .61,
+                            outerEndExtent: .65,
+                            innerStartExtent: 0.5,
+                            innerEndExtent: 0.5,
+                            strokeThickness: 0
+                        }
+                ]                
+            });
+        });

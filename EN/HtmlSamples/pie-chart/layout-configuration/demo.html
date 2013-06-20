@@ -1,0 +1,52 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.dv.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.lob.js"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+
+<div id="chart1"></div>
+    <div id="legend"></div>
+
+    <table class="options">
+        <tr>
+            <td>$$(start_angle):</td>
+            <td>
+                <div id="angle" class="slider"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>$$(Radius):</td>
+            <td>
+                <div id="radius" class="slider"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>$$(label_extent)</td>
+            <td>
+                <div id="labelExtent" class="slider"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>$$(exploded_radius)</td>
+            <td>
+                <div id="explodedRadius" class="slider"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>$$(label_position):</td>
+            <td>
+                <div class="comboContainer">
+                    <select id="labelPosition">
+                        <option value="none">$$(None)</option>
+                        <option value="center" selected="selected">$$(Center)</option>
+                        <option value="insideEnd">$$(inside_end)</option>
+                        <option value="outsideEnd">$$(outside_end)</option>
+                        <option value="bestFit">$$(best_fit)</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+    </table>

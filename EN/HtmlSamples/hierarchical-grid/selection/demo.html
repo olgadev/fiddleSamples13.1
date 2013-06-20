@@ -1,0 +1,80 @@
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/modernizr.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.core.js"></script>
+<script src="http://cdn-na.infragistics.com/jquery/20131/latest/js/infragistics.lob.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js/apiviewer.js"></script>
+<script src="http://igniteuisamples.dev.infragistics.local/13-1/js-data/northwind"></script>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="http://cdn-na.infragistics.com/jquery/20131/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+<link href="http://igniteuisamples.dev.infragistics.local/13-1/css/apiviewer.css" rel="stylesheet" type="text/css"></link>
+
+<div>
+        <fieldset id="cellSelectionState">
+            <legend>$$(legend_lbl_cellSelOpt)</legend>
+
+            <input type="checkbox" id="multipleCellSelection"></input>
+            $$(chckbx_lbl_multiSel)<br />
+
+            <input type="checkbox" id="multipleCellSelectOnClick"></input>
+            $$(chckbx_lbl_multiSelClick)
+            <br />
+
+            <input type="checkbox" id="touchDragSelect"></input>
+            $$(chckbx_lbl_touchDrag)<br />
+
+            <button id="applyCellSelection" style="width: 300px">$$(button_lbl_applyCellSel)</button>
+
+        </fieldset>
+    </div>
+    <br />
+    
+    <div class="cellSelectionContainer">
+        
+    </div>
+
+    <br />
+
+    <div>
+        <fieldset id="rowSelectorsState">
+            <legend>$$(legend_lbl_rowSelOpt)</legend>
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="enableRowNumberingchkb"></input>
+                        $$(chckbx_lbl_enblRowNum)<br />
+
+                        <input type="checkbox" id="enableCheckboxeschkb"></input>
+                        $$(chckbx_lbl_enblChckbxs)<br />
+
+                        <input type="text" id="rowSelectorColumnWidthEditor"></input>
+                        $$(lbl_rowSelColWidth)<br />
+                    </td>
+                    <td>
+                        <select id="selectionMode">
+                            <option value="row" label="row">Row</option>
+                            <option value="cell" label="cell">Cell</option>
+                        </select>
+                        $$(lbl_selMode)
+                        <br />
+                        <br />
+                        <input type="checkbox" id="multipleSelection"></input>
+                        $$(chckbx_multiSel)<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="applyRowSelectors" style="width: 300px">$$(button_lbl_applyRowSelOpt)</button>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </div>
+
+    <br />
+    
+    <div class="rowSelectorsContainer">
+       
+    </div>

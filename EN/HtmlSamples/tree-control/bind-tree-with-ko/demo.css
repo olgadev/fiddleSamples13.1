@@ -1,0 +1,23 @@
+.message
+        {
+            color: darkorange;
+            font-weight: bold;
+        }
+
+        .container
+        {
+            width: 30%;
+            position: relative;
+            float: left;
+            padding: 0px 10px 0px 10px;
+        }
+
+        #tree
+        {
+            border-right: 1px solid grey;
+        }
+
+        #categoryEditorsContainer, #productEditorsContainer
+        {
+            display: none;
+        }
