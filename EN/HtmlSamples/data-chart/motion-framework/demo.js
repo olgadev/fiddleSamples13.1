@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             var moviesOverTime = null,
                 minYear = 1888,
                 maxYear = 2010,

@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var getData = function (num) {
                 var data = [];

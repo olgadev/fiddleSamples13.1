@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             function generateData() {
                 var num = 30, data = [], curr = 10;
                 for (var i = 0; i < num; i++) {

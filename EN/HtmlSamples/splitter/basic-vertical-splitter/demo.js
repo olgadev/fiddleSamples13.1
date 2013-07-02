@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             $("#splitter").igSplitter({ height: "300px", panels: [{ size: 200, min: 100, max: 250 }] });
             $("#tree").igTree({
                 dataSource: continentsWithCountries,

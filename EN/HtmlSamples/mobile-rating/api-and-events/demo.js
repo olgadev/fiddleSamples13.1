@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
                 $("#igRating").on("igratingvaluechange", function (e, ui) {
                     $("#currentValue").html("$$(Value_Event): " + ui.value);

@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             $("#defaultDateEditor").igDateEditor({
                 width: 200,

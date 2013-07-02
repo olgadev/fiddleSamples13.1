@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var url = 'http://services.odata.org/OData/OData.svc/Categories?$format=json&$callback=?';
             //creates new JSONP data source for OData

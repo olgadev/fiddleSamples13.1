@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             var dataSource = new $.ig.OlapFlatDataSource({
                 dataSource: sales,
                 metadata: {

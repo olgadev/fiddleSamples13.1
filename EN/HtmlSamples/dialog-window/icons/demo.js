@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             // Initialize the open button with igButton
             $("#openDialog").igButton({ labelText: "$$(open)" });
 

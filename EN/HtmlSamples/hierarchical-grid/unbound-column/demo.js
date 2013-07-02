@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 // the JavaScript function used for the formula property
         function CalculateFreightExpence(data, grid) {
             return 2.95 * data["Freight"];

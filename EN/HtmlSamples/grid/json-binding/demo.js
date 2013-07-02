@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var data = [
                       { "$$(Northwind_Employees_Name)": "John Smith", "$$(Northwind_Employees_Age)": 45 },

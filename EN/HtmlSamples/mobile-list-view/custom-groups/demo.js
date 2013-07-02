@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 //Logic to sort by first letter
             function byFirstLetter(val1, val2) {
                 if (val1 === null && val2 === null)

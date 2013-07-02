@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             $("#grid").on("iggridrowsrendered", function (evt, ui) {
 

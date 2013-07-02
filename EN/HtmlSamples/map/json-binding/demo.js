@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var data = [
                     { Name: "Warsaw", Country: "Poland", Latitude: 52.21, Longitude: 21 },

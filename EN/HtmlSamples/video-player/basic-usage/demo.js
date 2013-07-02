@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             $("#videoPlayer").igVideoPlayer({
                 height: 270,

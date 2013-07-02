@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
                 var flatListId = $("#templateListView").igListView("rootWidget").element[0].id;
 
                 $("#" + flatListId).bind("iglistsubpagecreated", function (evt, ui) {

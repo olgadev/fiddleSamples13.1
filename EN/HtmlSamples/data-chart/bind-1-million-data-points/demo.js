@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 var currData, currDataSource, doGeneration, startTime = null;
 
 	    function doGeneration() {

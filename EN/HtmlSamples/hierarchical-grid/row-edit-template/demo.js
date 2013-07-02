@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             /*----------------- Instantiation -------------------------*/
             $("#grid2").igHierarchicalGrid({
                 features: [

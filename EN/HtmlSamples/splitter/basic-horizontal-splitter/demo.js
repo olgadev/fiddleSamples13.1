@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             $("#splitter").igSplitter({ height: "700px", orientation: "horizontal", panels: [{ collapsible: false }, { size: 200, collapsed: true, collapsible: true}] });
             $("#mainGrid").igGrid({
                 width: "100%",

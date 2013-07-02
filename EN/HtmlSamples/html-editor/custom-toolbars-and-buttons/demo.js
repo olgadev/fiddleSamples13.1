@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             // initialize igHtmlEditor
             var htmlEditor = $("#htmlEditor").igHtmlEditor({
                 width: "99%",

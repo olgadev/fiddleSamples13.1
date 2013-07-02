@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             // get the content of the htmlEditor div
             var editorContent = $("#htmlEditor").html();
             // empty the htmlEditor div

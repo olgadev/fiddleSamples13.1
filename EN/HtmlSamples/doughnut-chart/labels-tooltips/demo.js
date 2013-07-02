@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var data = [
                 { "DepartmentSize": 43, "Budget": 60, "Label": "$$(Administration)" },

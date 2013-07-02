@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
                 $("#basicJsonListView").igListView({
                     dataSource: northwindProducts,

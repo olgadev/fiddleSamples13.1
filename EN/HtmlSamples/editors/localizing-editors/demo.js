@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             // --------- en-US ----------
             $("#enUsDatePicker").igDatePicker({

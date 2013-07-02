@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             // Used to show output in the API Viewer at runtime, 
             // defined in external script 'apiviewer.js'           

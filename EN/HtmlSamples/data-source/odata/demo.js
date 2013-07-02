@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             // Renders the table
             var renderTable = function (success, error) {
                 var template = "<tr><td><img width='90' height='100' src='${ImageUrl}' /img></td></td><td>${Name}</td><td>{{html Notes}}</td></tr>";

@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 var data = [
                 { "Year": "2000", "Coal": 450, "Oil": 100, "Nuclear": 175 },
                 { "Year": "2010", "Coal": 480, "Oil": 120, "Nuclear": 225 },

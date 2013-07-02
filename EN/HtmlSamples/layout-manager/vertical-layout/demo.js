@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 $(document).ready(function () {
             $('#layout').on("iglayoutmanageritemrendered", function (e, args) {
                 args.item.text(args.index);

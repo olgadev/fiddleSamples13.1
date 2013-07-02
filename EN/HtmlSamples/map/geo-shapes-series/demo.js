@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             $("#map").igMap({
                 width: "700px",
                 height: "500px",

@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 function getShowAllErrorsOnSubmit() {
             return $('#showErrorCheckBox').is(":checked") ? true : false;
         }

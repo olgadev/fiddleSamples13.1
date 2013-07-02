@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 var viewModel;
 
         //  Define empty objects for Category and Product to be used when

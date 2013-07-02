@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 var data = [
             { Id: 0, Budget: 30, Department: "$$(Chart_lbl_administration)" },
             { Id: 1, Budget: 50, Department: "$$(Chart_lbl_sales)" },

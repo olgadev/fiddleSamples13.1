@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var data = [
                       { "ID":1, "Name": "John Smith", "Age": 45 },

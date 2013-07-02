@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             var $pivotGrid = $("#pivotGrid"),
                 $transposeCheckBox = $("#transpose"),
                 $chart = $("#olapChart"),

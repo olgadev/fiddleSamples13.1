@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             data = [{ "Budget": 60, "Label": "$$(Administration)" }, { "Budget": 40, "Label": "$$(Sales)" },
                 { "Budget": 60, "Label": "$$(IT)" }, { "Budget": 40, "Label": "$$(Marketing)" },

@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 $.support.cors = true;
 
         $(function () {

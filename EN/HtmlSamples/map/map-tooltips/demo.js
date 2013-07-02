@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             $("#map").igMap({
                 width: "700px",
                 crosshairVisibility: "visible",

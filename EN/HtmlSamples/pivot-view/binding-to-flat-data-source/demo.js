@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             var sumAggregator = function (propertyName) {
                 return function (items, cellMetadata) {
                     var sum = 0;

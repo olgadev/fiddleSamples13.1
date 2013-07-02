@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             $("#editableCombo").igCombo({
                 width: "300px",

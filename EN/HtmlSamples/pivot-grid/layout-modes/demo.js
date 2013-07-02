@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             var $pivotGridStandard = $("#pivotGridStandard"),
             $pivotGridCompact = $("#pivotGridCompact"),
             dataSource = new $.ig.OlapFlatDataSource({

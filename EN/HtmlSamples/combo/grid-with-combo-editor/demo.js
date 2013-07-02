@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 
             var northwindProductsJSON = [
                 { "ID": 0, "Name": "$$(Bread)", "Description": "$$(whole_bread)", "ReleaseDate": "\/Date(694224000000)\/", "DiscontinuedDate": null, "Rating": 4, "Price": "2.5", "CategoryID": 0 },

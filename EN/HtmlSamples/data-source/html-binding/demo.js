@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
             $("#dataBindBtn").igButton({ labelText: $("#dataBindBtn").val() });
             $('#dataBindBtn').on("click", function (e) {
                     // Renders the table

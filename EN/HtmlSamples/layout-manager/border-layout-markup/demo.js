@@ -1,4 +1,4 @@
-$(function () {
+warning $(function () {
 $(document).ready(function () {
                 $('#layout').igLayoutManager({
                     layoutMode: "border",

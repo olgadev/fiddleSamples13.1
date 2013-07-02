@@ -1,4 +1,4 @@
-$(function () {            
+warning $(function () {            
 
             $("#firstTree").igTree({
                 checkboxMode: 'triState',
