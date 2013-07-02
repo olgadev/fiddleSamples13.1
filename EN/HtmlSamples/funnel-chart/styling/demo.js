@@ -35,4 +35,5 @@ var data = [
                 outerLabelMemberPath: "Department",
                 outerLabelVisibility: "visible"
             });
-        });});
+        });
+});

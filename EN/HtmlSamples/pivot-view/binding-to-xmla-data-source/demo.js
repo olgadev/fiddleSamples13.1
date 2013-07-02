@@ -15,4 +15,5 @@ $.support.cors = true;
                     measures: "[Measures].[Internet Order Count]"
                 }
             });
-        });});
+        });
+});

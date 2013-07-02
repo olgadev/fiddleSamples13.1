@@ -79,4 +79,5 @@ var viewModel;
                     viewModel.SetSelected(ui.newNodes[0].data);
                 }
             });
-        });});
+        });
+});

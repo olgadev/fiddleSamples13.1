@@ -61,4 +61,5 @@ var currData, currDataSource, doGeneration, startTime = null;
 	        doGeneration();
 	        assignData();
 	        $(".message").hide();
-	    });});
+	    });
+});

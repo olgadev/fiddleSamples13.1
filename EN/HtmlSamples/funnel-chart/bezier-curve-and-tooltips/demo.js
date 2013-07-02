@@ -38,4 +38,5 @@ var data = [
                 useBezierCurve: true,
                 bezierPoints: "0.1 0.1 0.7 1"
             });
-        });});
+        });
+});

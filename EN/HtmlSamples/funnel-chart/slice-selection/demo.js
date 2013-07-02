@@ -67,4 +67,5 @@ var data = [
                     { key: "Budget", headerText: "$$(Budget)", width: "70px" }
                 ]
             });
-        });});
+        });
+});

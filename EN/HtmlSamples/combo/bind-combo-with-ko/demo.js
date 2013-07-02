@@ -101,4 +101,5 @@ $(function () {
 
         function setListLength() {
             $("#listboxActors").attr("size", viewModel.actors().length);
-        }});
+        }
+});

@@ -15,4 +15,5 @@ $(function () {
                 if (!val || val.length === 0)
                     return "Empty";
                 return val.toUpperCase()[0];
-            }});
+            }
+});

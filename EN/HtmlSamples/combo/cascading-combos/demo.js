@@ -123,4 +123,5 @@ var dsCountry, dsCascTowns, dsCountryCascading,
                 parentCombo: $("#comboCountryCascading")
             });
 
-        });});
+        });
+});

@@ -48,4 +48,5 @@ var data = [
                 outerLabelVisibility: "visible",
                 isInverted: true
             });
-        });});
+        });
+});

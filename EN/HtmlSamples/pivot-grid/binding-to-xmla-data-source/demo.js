@@ -22,4 +22,5 @@ $.support.cors = true;
                 height: "650px",
                 width: "670px"
             });
-        });});
+        });
+});

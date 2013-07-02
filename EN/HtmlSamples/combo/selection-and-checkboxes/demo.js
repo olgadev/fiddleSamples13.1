@@ -37,4 +37,5 @@ var colors = [
                 multiSelection: "onWithCheckboxes"
             });
 
-        });});
+        });
+});

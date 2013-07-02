@@ -41,4 +41,5 @@ var xmlDoc =
                 outerLabelMemberPath: "Department",
                 outerLabelVisibility: "visible"
             });
-        });});
+        });
+});

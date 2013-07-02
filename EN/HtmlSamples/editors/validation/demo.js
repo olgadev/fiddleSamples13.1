@@ -162,4 +162,5 @@ function getShowAllErrorsOnSubmit() {
             $("#submitEvent").igButton({ labelText: $("#submitEvent").val() });
 
             $('.validateOptions').attr('disabled', 'disabled');
-        });});
+        });
+});

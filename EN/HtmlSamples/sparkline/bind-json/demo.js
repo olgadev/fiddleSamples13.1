@@ -15,4 +15,5 @@ $.ig.loader({
                 labelMemberPath: 'OrderDate'
             });
 
-        });});
+        });
+});

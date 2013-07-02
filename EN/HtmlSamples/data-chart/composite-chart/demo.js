@@ -75,4 +75,5 @@ var data = [
                 leftMargin: 5,
                 topMargin: 15
             });
-        });});
+        });
+});

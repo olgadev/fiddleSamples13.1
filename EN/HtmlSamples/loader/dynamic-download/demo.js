@@ -19,4 +19,5 @@ $.ig.loader({
             $.ig.loader("igTree", function () {
                 $('#tree').igTree();
             });
-        }});
+        }
+});

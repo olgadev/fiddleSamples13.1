@@ -79,4 +79,5 @@ $.support.cors = true;
                     $this.fadeIn(500);
                 }
             });
-        });});
+        });
+});
