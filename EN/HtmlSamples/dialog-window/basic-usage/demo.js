@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#dialog").igDialog();
 

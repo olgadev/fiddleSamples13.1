@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
                 var playing = false;
                 $("#videoPlayer1").igVideoPlayer({
                     sources: ["http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/big_buck_bunny.mp4",

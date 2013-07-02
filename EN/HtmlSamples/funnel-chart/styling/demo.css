@@ -1,4 +1,4 @@
-warning /* Redefine the styles from infragistics.theme.css that define fill and border colors for slices */
+/* Redefine the styles from infragistics.theme.css that define fill and border colors for slices */
         .ui-chart-palette-1 { border-color: #00AADE; background-color: #00AADE }
         .ui-chart-palette-2 { border-color: #4B4B4D; background-color: #4B4B4D }
         .ui-chart-palette-3 { border-color: #FCB025; background-color: #FCB025 }

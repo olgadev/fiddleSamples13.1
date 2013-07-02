@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#grid").igGrid({
                 columns: [
                     { headerText: "$$(Northwind_Customers_CustomerID)", key: "ID", dataType: "string" },

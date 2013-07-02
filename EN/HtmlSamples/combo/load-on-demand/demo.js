@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 //  Helper function to put an item data token to the selected item table utilizing a jQuery template
         var selectedItemTemplate = '<tr><td class="propName">${propertyName}</td><td class="propValue">${propertyValue}</td></tr>';
         function addItemValue(tableObject, item, itemProp) {

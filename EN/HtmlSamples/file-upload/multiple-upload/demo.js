@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             var buttonLabel = $.ig.Upload.locale.labelUploadButton;
             if (Modernizr.input.multiple) {
                 buttonLabel = "$$(Drag_And_Drop_Files)";

@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 //Bind to jQuery Mobile page init event.
             $(document).bind("pageinit", function () {
 

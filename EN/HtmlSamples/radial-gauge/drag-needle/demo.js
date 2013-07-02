@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#radialgauge").igRadialGauge({
                 height: "400px",
                 width: "400px",

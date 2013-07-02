@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#grid").igGrid({
                 primaryKey: "EmployeeID",
                 height: 600,

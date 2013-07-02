@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 var alternate = true;
 
         $(function () {

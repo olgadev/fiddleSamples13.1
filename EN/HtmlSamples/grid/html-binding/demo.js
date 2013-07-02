@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#grid").igGrid({
                 defaultColumnWidth: 150
             });

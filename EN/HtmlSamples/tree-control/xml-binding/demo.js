@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             //Sample XML Data
             var xmlDoc = '<OrgChart Name="$$(All_Employees)">' +

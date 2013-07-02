@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#igUpload1").igUpload({
                 mode: 'single',
                 autostartupload: true,

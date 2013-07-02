@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#sparkline").igSparkline({
             	dataSource: "http://labs.infragistics.com/igniteui/api/invoices?callback=?",

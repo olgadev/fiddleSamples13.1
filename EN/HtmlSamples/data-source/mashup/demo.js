@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             //Sample XML Data
             var xmlDoc = '<People>' +
                 '<Person Name="Gustavo Achong">' +

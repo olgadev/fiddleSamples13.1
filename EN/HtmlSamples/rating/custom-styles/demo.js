@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#igRating1").igRating({
                 voteCount: 10,

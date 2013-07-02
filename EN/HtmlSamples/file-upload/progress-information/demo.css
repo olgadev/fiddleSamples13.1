@@ -1,2 +1,2 @@
-warning .container-info, .error-info { margin: 10px 0 ; font-weight: bold; }
+.container-info, .error-info { margin: 10px 0 ; font-weight: bold; }
         .error-info { color: #FF0000; }

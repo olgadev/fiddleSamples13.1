@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#autoCompleteCombo").igCombo({
                 width: "300px",

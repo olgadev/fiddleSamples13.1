@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 var dsCountry, dsCascTowns, dsCountryCascading,
             dsCountryCascading, dsStatesUSCascading, dsDistrictBGCascading;
 

@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             var data = [
                 { "Label": "$$(Chart_lbl_administration)", "Budget": 60, "Spending": 20 },
                 { "Label": "$$(Chart_lbl_sales)", "Budget": 40, "Spending": 80 },

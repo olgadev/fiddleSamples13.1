@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#player1").igVideoPlayer({
                 sources: ['http://dl.infragistics.com/pg/2011-1/web/shared/videoplayer/videos/Infragistics_Presentation_lowRes_1.h264.mp4',

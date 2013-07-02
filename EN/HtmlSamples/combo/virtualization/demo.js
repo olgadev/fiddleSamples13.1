@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#comboIG").igCombo({
                 virtualization: true,

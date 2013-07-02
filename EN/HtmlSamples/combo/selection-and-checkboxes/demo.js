@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 var colors = [
             { Name: "$$(Black)" },
             { Name: "$$(Blue)" },

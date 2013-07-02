@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#priceChart").igDataChart({
                 width: "500px",
                 height: "300px",

@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $('#defaultCurrencyEditor').igCurrencyEditor({
                 width: 200
             });

@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#htmlEditor").igHtmlEditor({
                 width: "99%"

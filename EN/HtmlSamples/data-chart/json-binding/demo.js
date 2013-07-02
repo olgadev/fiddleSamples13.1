@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             var data = [
                 { "CountryName": "China", "Pop1990": 1141, "Pop2008": 1333, "Pop2025": 1458 },

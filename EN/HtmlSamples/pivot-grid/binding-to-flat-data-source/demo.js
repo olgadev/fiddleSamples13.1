@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             var dataSource = new $.ig.OlapFlatDataSource({
                 dataSource:
                 [{ "ProductCategory": "Clothing", "UnitPrice": 12.81, "SellerName": "Stanley Brooker", "Country": "Bulgaria", "City": "Plovdiv", "Date": "01/01/2012", "UnitsSold": 282 },

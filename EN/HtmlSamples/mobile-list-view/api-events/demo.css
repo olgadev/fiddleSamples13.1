@@ -1,4 +1,4 @@
-warning /*This css is to hide the sort/filter tray*/
+/*This css is to hide the sort/filter tray*/
                 .ui-iglist-tray-collapse {
                     display: none;
                 }

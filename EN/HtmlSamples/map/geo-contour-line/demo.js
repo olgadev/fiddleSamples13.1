@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#map").igMap({
                 width: "700px",
                 verticalZoomable: true,

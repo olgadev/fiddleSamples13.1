@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
             $("#splitter").igSplitter({ height: 700, panels: [{ size: 200, min: 100, max: 250, resizable: false }, { collapsible: true }] });
             $("#detailSplitter").igSplitter({ orientation: "horizontal", panels: [{ size: 500, resizable: false, collapsible: true }, { size: 200, collapsible: true}] });
             $("#tree").igTree({

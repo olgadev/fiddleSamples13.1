@@ -1,4 +1,4 @@
-warning $(function () {
+$(function () {
 
             $("#slNightSky").igSparkline({
                 dataSource: data,
